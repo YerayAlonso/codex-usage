@@ -1,0 +1,42 @@
+/node_modules/
+/dist/
+/src-tauri/target/
+/src-tauri/gen/
+*.log
+
+# Local data, credentials and signing material must never be published.
+.env
+.env.*
+!.env.example
+.codex/
+auth.json
+state.json
+state.tmp
+/dev.codex.usage/
+/dev.ciclo.codex/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Installers and debug artifacts belong in GitHub Releases, not source control.
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.pdb
+
+# Local tools and reports.
+.DS_Store
+Thumbs.db
+Desktop.ini
+/.idea/
+/.vscode/
+/.vs/
+/coverage/
+/artifacts/
+*.tmp
+*.swp
